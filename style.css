@@ -53,23 +53,6 @@ img {
   margin: 0 auto;
 }
 
-.half-area {
-  width: 40%;
-  float: left;
-  margin: 0 2%;
-  padding: 3%;
-}
-
-.half-area h1:first-child,
-.half-area h2:first-child {
-  margin-top: 25px;
-}
-
-.half-area p {
-  color: gray;
-  margin: 30px 0;
-}
-
 .text-highlight {
   color: #ff8367;
 }
@@ -111,6 +94,23 @@ img {
 /* Identity Area */
 .identity-area {
   min-height: 500px;
+}
+
+.half-area {
+  width: 40%;
+  float: left;
+  margin: 0 2%;
+  padding: 3%;
+}
+
+.half-area h1:first-child,
+.half-area h2:first-child {
+  margin-top: 25px;
+}
+
+.half-area p {
+  color: gray;
+  margin: 30px 0;
 }
 
 /* About Area */
