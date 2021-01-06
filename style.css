@@ -7,7 +7,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: #363958;
   margin: 0;
   font-family: "Barlow Condensed", sans-serif;
@@ -39,6 +40,11 @@ a {
 
 img {
   max-width: 100%;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .container {
@@ -128,6 +134,11 @@ img {
   padding: 2%;
   margin: 0 1%;
   box-shadow: 0 0 10px #00000070;
+  transition: box-shadow .3s;
+}
+
+.three-parts:hover{
+  box-shadow: 0 0 1px #00000070;
 }
 
 /* Work Inquiry */
@@ -138,7 +149,7 @@ img {
   background-size: cover;
   margin: 100px;
   padding: 70px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .work-inquiry h2{
@@ -148,5 +159,35 @@ img {
 
 .work-inquiry .link-btn{
   float: right;
-  margin-top: 7px;
+  margin-top: 8px;
+}
+
+/* Contact Area */
+.contact-area {
+  margin-bottom: 50px;
+}
+
+.contact-area h4 {
+  color: grey;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.contact-area h3 a{
+  color: #363958;
+  font-size: 25px;
+}
+
+.contact-area .social{
+  padding: 0;
+}
+
+.contact-area .social li {
+  display: inline-block;
+}
+
+.contact-area .social li a {
+  display: inline-block;
+  width: 40px;
+  margin: 0 10px;
 }

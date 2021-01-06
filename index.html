@@ -1,84 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- Navbar Area-->
-    <section class="navbar">
-      <div class="container">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#protfolio">Protfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <main>
+      <!-- Navbar Area-->
+      <section class="navbar">
+        <div class="container">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Work</a></li>
+            <li><a href="#protfolio">Protfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </section>
+      <!-- Identity Area-->
+      <section class="identity-area">
+        <div class="container">
+          <div class="half-area">
+            <h1>Hello, I'm</h1>
+            <h1><span class="text-highlight">Hossain Rabbi</span></h1>
+            <p>A full Stack Web Developer that placerat in massa consectetur</p>
+            <a class="link-btn" href="https://www.linkedin.com/in/hossainrabbi/" target="_blank">Hire Me</a>
+          </div>
+          <div class="half-area">
+            <img src="images/identity-pic.png" alt="identity-pic">
+          </div>
+        </div>
+      </section>
+      <!-- About Area -->
+      <section class="about-area" id="about">
+        <div class="container">
+          <div class="half-area">
+            <img src="images/about-pic.png" alt="about-pic">
+          </div>
+          <div class="half-area">
+            <h2>About</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book.
+            </p>
+            <a class="link-btn" href="#">Download CV</a>
+          </div>
+        </div>
+      </section>
+      <!-- Work Area -->
+      <section class="work-area" id="works">
+        <div class="container">
+          <h2 class="text-center">
+            <span class="text-highlight">LASTET</span> WORKING PROJECT
+          </h2>
+          <div class="three-parts">
+            <img src="images/image-1.png" alt="work-image-1">
+            <h3>Power-x-gym (gym website)</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="three-parts">
+            <img src="images/image-2.png" alt="work-image-2">
+            <h3>Creative Agency</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="three-parts">
+            <img src="images/image-3.png" alt="work-image-3">
+            <h3>Hard Rock Music</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Inquiry -->
+      <section class="work-inquiry">
+        <div class="container">
+          <h2>Work Inquiry</h2>
+          <a class="link-btn" href="https://www.facebook.com/hossainrabbi71/" target="_blank">Let’s Chat</a>
+        </div>
+      </section>
+      <!-- Contact Area -->
+      <section class="contact-area text-center" id="contact">
+        <h4>Stay connected</h4>
+        <h3><a href="#">hossainrabbi259@gmail.com</a></h3>
+        <ul class="social">
+          <li><a href="https://www.behance.net/hossainrabbi/" target="_blank"><img src="icons/icon-1.png" alt="icon-1"></a></li>
+          <li><a href="https://www.instagram.com/hossainrabbi71/" target="_blank"><img src="icons/icon-2.png" alt="icon-2"></a></li>
+          <li><a href="#"><img src="icons/icon-3.png" alt="icon-3"></a></li>
         </ul>
-      </div>
-    </section>
-    <!-- Identity Area-->
-    <section class="identity-area">
-      <div class="container">
-        <div class="half-area">
-          <h1>Hello, I'm</h1>
-          <h1><span class="text-highlight">Hossain Rabbi</span></h1>
-          <p>A full Stack Web Developer that placerat in massa consectetur</p>
-          <a class="link-btn" href="#">Hire Me</a>
-        </div>
-        <div class="half-area">
-          <img src="images/identity-pic.png" alt="identity-pic" />
-        </div>
-      </div>
-    </section>
-    <!-- About Area -->
-    <section class="about-area" id="about">
-      <div class="container">
-        <div class="half-area">
-          <img src="images/about-pic.png" alt="about-pic" />
-        </div>
-        <div class="half-area">
-          <h2>About</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <a class="link-btn" href="#">Download CV</a>
-        </div>
-      </div>
-    </section>
-    <!-- Work Area -->
-    <section class="work-area">
-      <div class="container">
-        <h2 class="text-center">
-          <span class="text-highlight">LASTET</span> WORKING PROJECT
-        </h2>
-        <div class="three-parts">
-          <img src="images/image-1.png" alt="work-image-1">
-          <h3>Power-x-gym (gym website)</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-        <div class="three-parts">
-          <img src="images/image-2.png" alt="work-image-2">
-          <h3>Creative Agency</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-        <div class="three-parts">
-          <img src="images/image-3.png" alt="work-image-3">
-          <h3>Hard Rock Music</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-      </div>
-    </section>
-    <!-- Inquiry -->
-    <section class="work-inquiry">
-      <div class="container">
-        <h2>Work Inquiry</h2>
-        <a class="link-btn" href="#">Let’s Chat</a>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>
