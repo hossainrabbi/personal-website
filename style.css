@@ -42,13 +42,9 @@ img {
   max-width: 100%;
 }
 
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .container {
-  max-width: 95%;
+  max-width: 1200px;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -142,13 +138,14 @@ main {
 }
 
 /* Work Inquiry */
-.work-inquiry{
-  background-image: url("images/Group_33094_1.png");
+.work-inquiry {
+  background-image: url(images/Group_33094_1.png);
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
-  margin: 100px;
-  padding: 70px;
+  margin: 100px 50px;
+  box-sizing: border-box;
+  padding: 50px 30px;
   border-radius: 15px;
 }
 
